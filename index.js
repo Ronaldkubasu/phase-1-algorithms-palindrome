@@ -1,13 +1,21 @@
 function isPalindrome(word) {
   // Write your algorithm here
+  let wordReverse = word.split('').reverse().join('')
+  if(word==wordReverse){
+  return true
 }
-
+else{
+  return false 
+}
+}
 /* 
   Add your pseudocode here
 */
 
 /*
   Add written explanation of your solution here
+  splitting the array
+  joining them and also adding some arguments in the its function
 */
 
 // You can run `node index.js` to view these console logs
